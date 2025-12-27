@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attractive Links, Search, and Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+            font-family: 'Roboto', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255,255,255,0.97);
+            border-radius: 20px;
+            padding: 40px 50px;
+            box-shadow: 0 8px 24px rgba(80,80,120,0.15);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 24px;
+            font-size: 2em;
+            color: #5d34a3;
+            letter-spacing: 1px;
+        }
+        .search-bar {
+            margin-bottom: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .search-bar input[type="search"] {
+            width: 260px;
+            padding: 14px 18px;
+            border-radius: 32px 0 0 32px;
+            border: 1px solid #c7bede;
+            outline: none;
+            font-size: 1em;
+            background: #f7f6fa;
+            transition: box-shadow 0.2s;
+        }
+        .search-bar input[type="search"]:focus {
+            box-shadow: 0 2px 12px rgba(93, 52, 163, 0.12);
+        }
+        .search-bar button {
+            padding: 14px 20px;
+            border: none;
+            border-radius: 0 32px 32px 0;
+            background: linear-gradient(90deg, #fd6e6a 10%, #ffc600 90%);
+            color: #fff;
+            font-size: 1em;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .search-bar button:hover {
+            background: linear-gradient(90deg, #8ec5fc 10%, #e0c3fc 90%);
+            color: #5141d7;
+        }
+        #clock {
+            font-size: 1.3em;
+            color: #3d2e8c;
+            background: #f4f0fc;
+            padding: 10px 32px;
+            display: inline-block;
+            border-radius: 18px;
+            box-shadow: 0 2px 8px rgba(93, 52, 163, 0.08);
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+        .links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 18px 0;
+        }
+        .links a {
+            display: inline-block;
+            padding: 15px 42px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(90deg, #fd6e6a 10%, #ffc600 90%);
+            border-radius: 40px;
+            text-decoration: none;
+            box-shadow: 0 6px 18px rgba(253,110,106,0.15);
+            transition: background 0.4s, transform 0.2s, box-shadow 0.4s;
+            letter-spacing: 0.5px;
+        }
+        .links a:hover {
+            background: linear-gradient(90deg, #8ec5fc 10%, #e0c3fc 90%);
+            color: #5141d7;
+            transform: scale(1.07);
+            box-shadow: 0 8px 32px rgba(45,65,240,0.10);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="search-bar">
+            <form action="https://www.google.com/search" method="GET" target="_blank" style="display:flex;">
+                <input type="search" name="q" placeholder="Search Google..." autocomplete="off" />
+                <button type="submit">🔍</button>
+            </form>
+        </div>
+        <div id="clock"></div>
+        <h2>Favorite Websites</h2>
+        <ul class="links">
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            let hours = now.getHours().toString().padStart(2, '0');
+            let minutes = now.getMinutes().toString().padStart(2, '0');
+            let seconds = now.getSeconds().toString().padStart(2, '0');
+            let ampm = hours >= 12 ? 'PM' : 'AM';
+            let displayHours = hours > 12 ? hours - 12 : hours;
+            displayHours = displayHours == 0 ? 12 : displayHours;
+            displayHours = displayHours.toString().padStart(2, '0');
+            let timeString = `${displayHours}:${minutes}:${seconds} ${ampm}`;
+            document.getElementById('clock').textContent = timeString;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/rkgyani/Library/CloudStorage/OneDrive-Personal/C Program/hello'
+relocations:     []
+...

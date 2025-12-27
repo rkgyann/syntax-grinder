@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Attractive Links Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(120deg, #e0c3fc, #8ec5fc);
+            font-family: 'Roboto', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255,255,255,0.97);
+            border-radius: 20px;
+            padding: 40px 50px;
+            box-shadow: 0 8px 24px rgba(80,80,120,0.15);
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: 30px;
+            font-size: 2em;
+            color: #5d34a3;
+            letter-spacing: 1px;
+        }
+        .links {
+            list-style-type: none;
+            padding: 0;
+        }
+        .links li {
+            margin: 18px 0;
+        }
+        .links a {
+            display: inline-block;
+            padding: 15px 42px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(90deg, #fd6e6a 10%, #ffc600 90%);
+            border-radius: 40px;
+            text-decoration: none;
+            box-shadow: 0 6px 18px rgba(253,110,106,0.15);
+            transition: background 0.4s, transform 0.2s, box-shadow 0.4s;
+            letter-spacing: 0.5px;
+        }
+        .links a:hover {
+            background: linear-gradient(90deg, #8ec5fc 10%, #e0c3fc 90%);
+            color: #5141d7;
+            transform: scale(1.07);
+            box-shadow: 0 8px 32px rgba(45,65,240,0.10);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Favorite Websites</h2>
+        <ul class="links">
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        </ul>
+    </div>
+</body>
+</html>
