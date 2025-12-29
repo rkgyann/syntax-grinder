@@ -1,5 +1,3 @@
-package JAVA.FirstCode;
-
 import java.util.Random;
 
 class Circle {

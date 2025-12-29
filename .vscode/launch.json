@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CircleArray",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.CircleArray",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
             "name": "Rectangle_Application",
             "request": "launch",
             "mainClass": "JAVA.Internshala.Exercise_Questions.Rectangle_Application",
