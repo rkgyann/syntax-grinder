@@ -6,10 +6,10 @@ public class V_ehicle_Application {
         mycar.stop();
         mycar.drift();
 
-        //static -> class, not object
+        //static -> belong to class, not object
         V_ehicle.sevice();
         
-        mycar.drift();//default
+        mycar.honk();//default
     }
 }
  
