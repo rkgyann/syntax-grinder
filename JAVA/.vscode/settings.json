@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "Internshala/Advanced Java/Exception Handling",
+        "Lab Work",
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "libs/mysql-connector-j-8.2.0.jar"
+    ],
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "editor.formatOnSave": true
+}
