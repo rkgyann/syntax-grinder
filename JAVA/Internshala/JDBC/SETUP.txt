@@ -1,0 +1,29 @@
+PROJECT SETUP SUMMARY
+=====================
+
+✅ JDBC Connection Status: WORKING
+
+Database Details:
+- Host: localhost:3306
+- Database: my_first_db
+- User: root
+- Table: Users
+- Driver: MySQL JDBC 9.6.0
+
+Files in this directory:
+- jdbc_connect.java      → Main JDBC program
+- mysql-connector-j-9.6.0.jar → JDBC driver (required)
+- Makefile              → Build automation
+- .vscode/tasks.json    → VS Code task configuration
+- README.md             → Setup and usage instructions
+- .gitignore            → Ignore compiled files
+
+How to compile and run:
+1. Terminal: make run
+2. VS Code: Ctrl+Shift+B (Cmd+Shift+B on Mac)
+3. Manual: javac -cp "mysql-connector-j-9.6.0.jar" jdbc_connect.java && java -cp ".:mysql-connector-j-9.6.0.jar" jdbc_connect
+
+Current Output:
+Connected to the database successfully!
+Tables in 'my_first_db':
+  - Users

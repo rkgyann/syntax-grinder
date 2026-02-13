@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StudentManager",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.StudentManager",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseHandler",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.DatabaseHandler",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "VerifyConnection",
+            "request": "launch",
+            "mainClass": "VerifyConnection",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
             "name": "CircleArray",
             "request": "launch",
             "mainClass": "JAVA.FirstCode.CircleArray",

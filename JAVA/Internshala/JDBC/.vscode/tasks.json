@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "JDBC: Compile",
+            "type": "shell",
+            "command": "javac",
+            "args": ["-cp", "mysql-connector-j-9.6.0.jar", "jdbc_connect.java"],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "JDBC: Run",
+            "type": "shell",
+            "command": "java",
+            "args": ["-cp", ".:mysql-connector-j-9.6.0.jar", "jdbc_connect"],
+            "dependsOn": ["JDBC: Compile"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}
