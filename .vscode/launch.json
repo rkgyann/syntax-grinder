@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "StudentManager",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.StudentManager",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "DatabaseHandler",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.DatabaseHandler",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "VerifyConnection",
+            "request": "launch",
+            "mainClass": "VerifyConnection",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "CircleArray",
+            "request": "launch",
+            "mainClass": "JAVA.FirstCode.CircleArray",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle_Application",
+            "request": "launch",
+            "mainClass": "JAVA.Internshala.Exercise_Questions.Rectangle_Application",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
