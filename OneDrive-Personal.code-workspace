@@ -1,0 +1,44 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "JAVA/Internshala/JDBC"
+    }
+  ],
+  "settings": {
+    "sqltools.connections": [
+      {
+        "name": "Local MySQL (root)",
+        "driver": "MySQL",
+        "server": "127.0.0.1",
+        "port": 3306,
+        "database": "mysql",
+        "username": "root",
+        "password": "RajSingh3011@"
+      },
+      {
+        "name": "Local MySQL (vscode)",
+        "driver": "MySQL",
+        "server": "127.0.0.1",
+        "port": 3306,
+        "database": "mysql",
+        "username": "vscode",
+        "password": "RajSingh3011@"
+      }
+    ],
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/node_modules": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "mtxr.sqltools",
+      "mtxr.sqltools-driver-mysql",
+      "vscjava.vscode-java-pack"
+    ]
+  }
+}
