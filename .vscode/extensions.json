@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-mysql",
+    "vscjava.vscode-java-pack",
+    "ms-python.python",
+    "ms-vscode.cpptools",
+    "ms-vscode.js-debug",
+    "esbenp.prettier-vscode"
+  ],
+  "unwantedRecommendations": []
+}

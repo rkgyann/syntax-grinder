@@ -1,0 +1,32 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Local MySQL (root)",
+      "driver": "MySQL",
+      "server": "127.0.0.1",
+      "port": 3306,
+      "database": "mysql",
+      "username": "root",
+      "password": "RajSingh3011@"
+    },
+    {
+      "name": "Local MySQL (vscode)",
+      "driver": "MySQL",
+      "server": "127.0.0.1",
+      "port": 3306,
+      "database": "mysql",
+      "username": "vscode",
+      "password": "RajSingh3011@"
+    }
+  ],
+  "java.project.sourcePaths": [
+    "C Program",
+    "JAVA/FirstCode"
+  ],
+  "java.project.referencedLibraries": [
+    "JAVA/Internshala/JDBC/.vscode/mysql-connector-j-9.6.0.jar"
+  ],
+  "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
+  "C_Cpp.default.compilerPath": "/usr/bin/clang",
+  "terminal.integrated.defaultProfile.osx": "zsh"
+}

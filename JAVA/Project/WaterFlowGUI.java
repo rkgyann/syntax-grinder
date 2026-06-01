@@ -1,3 +1,5 @@
+//cd /Users/rkgyani/Library/CloudStorage/OneDrive-Personal/JAVA/Project && javac WaterFlowGUI.java && java WaterFlowGUI
+
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
