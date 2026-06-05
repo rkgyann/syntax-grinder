@@ -20,13 +20,16 @@
     }
   ],
   "java.project.sourcePaths": [
+    "JAVA/FirstCode",
+    "JAVA/.vscode",
     "C Program",
-    "JAVA/FirstCode"
+    "JAVA/Internshala/JDBC"
   ],
   "java.project.referencedLibraries": [
-    "JAVA/Internshala/JDBC/.vscode/mysql-connector-j-9.6.0.jar"
+    "JAVA/mysql-connector-j-9.6.0.jar"
   ],
   "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.14/bin/python3",
   "C_Cpp.default.compilerPath": "/usr/bin/clang",
-  "terminal.integrated.defaultProfile.osx": "zsh"
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "java.debug.settings.onBuildFailureProceed": true
 }

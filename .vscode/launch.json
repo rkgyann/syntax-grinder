@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Student_Main",
+            "request": "launch",
+            "mainClass": "Student_Main",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "Student",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
+            "name": "java_connect",
+            "request": "launch",
+            "mainClass": "java_connect",
+            "projectName": "OneDrive-Personal_c6208c68"
+        },
+        {
+            "type": "java",
             "name": "TicTacToe",
             "request": "launch",
             "mainClass": "TicTacToe",
