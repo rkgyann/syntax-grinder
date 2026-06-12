@@ -3,93 +3,44 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Student_Main",
+            "name": "SwingAdvanced",
             "request": "launch",
-            "mainClass": "Student_Main",
+            "mainClass": "SwingAdvanced",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {
             "type": "java",
-            "name": "Student",
+            "name": "SwingMenuToolbar",
             "request": "launch",
-            "mainClass": "Student",
+            "mainClass": "SwingMenuToolbar",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {
             "type": "java",
-            "name": "java_connect",
+            "name": "SwingDialog",
             "request": "launch",
-            "mainClass": "java_connect",
+            "mainClass": "SwingDialog",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {
             "type": "java",
-            "name": "TicTacToe",
+            "name": "SwingAppliaction",
             "request": "launch",
-            "mainClass": "TicTacToe",
+            "mainClass": "SwingAppliaction",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {
             "type": "java",
-            "name": "java_connect",
+            "name": "AWTLayoutApplication",
             "request": "launch",
-            "mainClass": "JAVA.Internshala.JDBC.Codes.java_connect",
+            "mainClass": "AWTLayoutApplication",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {
             "type": "java",
-            "name": "Main",
+            "name": "AWT_Application",
             "request": "launch",
-            "mainClass": "Main",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "WaterFlowGUI",
-            "request": "launch",
-            "mainClass": "JAVA.Project.WaterFlowGUI",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "StudentManager",
-            "request": "launch",
-            "mainClass": "JAVA.FirstCode.StudentManager",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "DatabaseHandler",
-            "request": "launch",
-            "mainClass": "JAVA.FirstCode.DatabaseHandler",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "VerifyConnection",
-            "request": "launch",
-            "mainClass": "VerifyConnection",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "CircleArray",
-            "request": "launch",
-            "mainClass": "JAVA.FirstCode.CircleArray",
-            "projectName": "OneDrive-Personal_c6208c68"
-        },
-        {
-            "type": "java",
-            "name": "Rectangle_Application",
-            "request": "launch",
-            "mainClass": "JAVA.Internshala.Exercise_Questions.Rectangle_Application",
+            "mainClass": "AWT_Application",
             "projectName": "OneDrive-Personal_c6208c68"
         },
         {

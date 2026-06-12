@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile & Run Java (fast)",
+      "type": "shell",
+      "command": "javac -g \"${file}\" -d \"${fileDirname}/out\" && java -cp \"${fileDirname}/out\" ${fileBasenameNoExtension}",
+      "presentation": {
+        "echo": true,
+        "reveal": "silent",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": ["$javac"]
+    }
+  ]
+}

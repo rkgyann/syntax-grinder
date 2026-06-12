@@ -1,0 +1,18 @@
+{
+  "Java main method": {
+    "prefix": "psvm",
+    "body": [
+      "public static void main(String[] args) {",
+      "    $0",
+      "}"
+    ],
+    "description": "Insert Java main method"
+  },
+  "Java sysout": {
+    "prefix": "sop",
+    "body": [
+      "System.out.println($0);"
+    ],
+    "description": "Insert System.out.println"
+  }
+}
